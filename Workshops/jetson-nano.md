@@ -2,7 +2,7 @@
 
 ## Prepare for Setup
 
-To get started with Jetson Nano Developer Kit, please see [here](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit).
+To get started with Jetson Nano Developer Kit, please see [here](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit).\
 A typical setup will look like this.
 
 ![Jetson Nano Device Setup](images/jetson_nano.png)
