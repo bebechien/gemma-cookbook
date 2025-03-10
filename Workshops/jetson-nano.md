@@ -16,8 +16,11 @@ default password: nvidia
 
 1. Open Terminal app
 
-2. Install Ollama\
+2. Install curl
+```$ sudo apt install curl```
+
+3. Install Ollama\
 ```$ curl -fsSL https://ollama.com/install.sh | sh```
 
-3. Run\
+4. Run\
 ```$ ollama run gemma2:2b "Write me a poem about the Kraken."```
