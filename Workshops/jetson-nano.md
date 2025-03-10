@@ -14,9 +14,10 @@ default password: nvidia
 
 ## Download Ollama
 
-1. Open Terminal app
+1. Open Terminal app\
+Shortcut : Ctrl + Alt + T
 
-2. Install curl
+2. Install curl\
 ```$ sudo apt install curl```
 
 3. Install Ollama\
