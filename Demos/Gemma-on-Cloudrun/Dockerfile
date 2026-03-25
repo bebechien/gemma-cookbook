@@ -1,5 +1,5 @@
 # === Stage 1: Build proxy server ===
-FROM golang:1.24-alpine as proxy_builder
+FROM golang:1.24.13-alpine as proxy_builder
 LABEL stage="proxy-builder"
 
 # Create and change to the app directory.
@@ -21,7 +21,7 @@ FROM ollama/ollama:latest as ollama_builder
 LABEL stage="ollama-builder"
 
 # Install curl. It's used in the start_script.sh to check Ollama health status.
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get upgrade -y && apt-get install -y curl
 
 # Copy the proxy server binary to the ollama image.
 COPY --from=proxy_builder /app/server /app/server
