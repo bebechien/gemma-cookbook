@@ -4,6 +4,14 @@ This is a collection of guides and examples for [Google Gemma](https://ai.google
 
 > **Disclaimer:** Gemma is a family of developer-focused models built by Google DeepMind. This cookbook is a collection of guides and examples for Google Gemma. Please keep in mind that Gemma is an open model and can hallucinate as you build on examples in this cookbook.
 
+## Repository Structure
+* [**Tutorials**](tutorials/): The latest tested notebooks for Gemma models and variants.
+* [**Apps**](apps/): Full-stack demos and complex end-to-end use cases.
+* [**Experiments**](experiments/): Research-focused model notebooks, including [TxGemma](experiments/TxGemma) and [MedGemma](experiments/MedGemma).
+* [**Responsible**](responsible/): Notebooks for responsible AI development.
+* [**Docs**](docs/): Core documentation, capabilities, and technical guides.
+* [**Archive**](archive/): All older notebooks and historical examples.
+
 ## Get started with the Gemma models
 Gemma is a family of lightweight, generative artificial intelligence (AI) open models, built from the same research and technology used to create the Gemini models. The Gemma model family includes:
 * Gemma\
@@ -50,17 +58,8 @@ Gemma is a family of lightweight, generative artificial intelligence (AI) open m
 
 You can find the Gemma models on the Hugging Face Hub, Kaggle, Google Cloud Vertex AI Model Garden, and [ai.nvidia.com](https://ai.nvidia.com).
 
-## Table of Notebooks
-* [Gemma](Gemma/README.md)
-* [CodeGemma](CodeGemma/README.md)
-* [FunctionGemma](FunctionGemma/README.md)
-* [PaliGemma](PaliGemma/README.md)
-* [MedGemma](MedGemma/README.md)
+## Additional Resources
 * [MedGemma on Google-Health](https://github.com/Google-Health/medgemma/tree/main/notebooks) : Google-Health has additional notebooks for using MedGemma
-* [TxGemma](TxGemma/README.md)
-* [Workshops and technical talks](Workshops/README.md)
-* [Research](Research/): Notebooks for research focused models
-* [Showcase complex end-to-end use cases](Demos/README.md)
 * [Gemma on Google Cloud](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/open-models) : GCP open models has additional notebooks for using Gemma
 
 ## Get help
