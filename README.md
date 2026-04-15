@@ -10,7 +10,7 @@ This is a collection of guides and examples for [Google Gemma](https://ai.google
 * [**Experiments**](experiments/): Research-focused model notebooks, including [TxGemma](experiments/TxGemma) and [MedGemma](experiments/MedGemma).
 * [**Responsible**](responsible/): Notebooks for responsible AI development.
 * [**Docs**](docs/): Core documentation, capabilities, and technical guides.
-* [**Archive**](archive/): All older notebooks and historical examples.
+* [**Archive**](.archive/): All older notebooks and historical examples.
 
 ## Get started with the Gemma models
 Gemma is a family of lightweight, generative artificial intelligence (AI) open models, built from the same research and technology used to create the Gemini models. The Gemma model family includes:
