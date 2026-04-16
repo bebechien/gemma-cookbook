@@ -1,6 +1,4 @@
-<p align="center">
-    <img src="assets/preview.png">
-</p>
+![demo](https://github.com/user-attachments/assets/00b78c38-597b-4a84-8a18-9c1644f94669)
 
 Run **N concurrent Gemma 4 instances** on a local [`llama-server`](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) and visualize them working in real time. 
 
