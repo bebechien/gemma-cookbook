@@ -4,6 +4,8 @@
 
 Run **N concurrent Gemma 4 instances** on a local [`llama-server`](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) and visualize them working in real time. 
 
+These Gemma 4 instances can be run across several scenarios, such as generating SVGs, translating text, generating code, and generating ASCII art.
+
 ## Prerequisites
 
 - **macOS** (uses AppleScript for Terminal window management)
@@ -20,7 +22,7 @@ uv sync
 
 **2. Start llama-server**
 
-If you have `llama.cpp` installed and a local Gemma 4 GGUF, you can start `llama-server` with:
+If you have `llama.cpp` installed and a local [Gemma 4 GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF), you can start `llama-server` with:
 
 ```bash
 llama-server -m gemma-4-26B-A4B-it-UD-Q4_K_M.gguf -c 70000 -np 10 --metrics --reasoning off
