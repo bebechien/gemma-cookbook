@@ -11,16 +11,20 @@ Notebooks for Gemma models and variants.
 
 Explore Gemma's capabilities across different modalities:
 
-- [Text - Basic](../docs/capabilities/text/basic.ipynb)
-- [Text - Function Calling](../docs/capabilities/text/function-calling-gemma4.ipynb)
-- [Vision - Image](../docs/capabilities/vision/image.ipynb)
-- [Vision - Video](../docs/capabilities/vision/video.ipynb)
-- [Audio](../docs/capabilities/audio.ipynb)
-- [Thinking](../docs/capabilities/thinking.ipynb)
+| Notebook Name | Description |
+|:--| --- |
+| [Text - Basic](../docs/capabilities/text/basic.ipynb) | Basic text generation and prompting with Gemma 4. |
+| [Text - Function Calling](../docs/capabilities/text/function-calling-gemma4.ipynb) | Leverage Gemma 4 for tool use and function calling. |
+| [Vision - Image](../docs/capabilities/vision/image.ipynb) | Visual understanding and captioning with Gemma 4. |
+| [Vision - Video](../docs/capabilities/vision/video.ipynb) | Video understanding and analysis with Gemma 4. |
+| [Audio](../docs/capabilities/audio.ipynb) | Explore audio processing and understanding. |
+| [Thinking](../docs/capabilities/thinking.ipynb) | Reasoning capabilities. |
 
 ## Fine-tuning
 
 Examples of fine-tuning Gemma models:
 
-- [Text Fine-tuning with QLoRA](../docs/core/huggingface_text_finetune_qlora.ipynb)
-- [Vision Fine-tuning with QLoRA](../docs/core/huggingface_vision_finetune_qlora.ipynb)
+| Notebook Name | Description |
+|:--| --- |
+| [Text Fine-tuning with QLoRA](../docs/core/huggingface_text_finetune_qlora.ipynb) | Efficiently fine-tune Gemma 4 for text tasks using QLoRA. |
+| [Vision Fine-tuning with QLoRA](../docs/core/huggingface_vision_finetune_qlora.ipynb) | Efficiently fine-tune Gemma 4 for vision tasks using QLoRA. |
