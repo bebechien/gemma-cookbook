@@ -14,9 +14,9 @@ sphinx:
   # Path to your Sphinx configuration file.
   configuration: docs/conf.py
 
-python:
-   install:
-   - requirements: docs/requirements.txt
+#python:
+#   install:
+#   - requirements: docs/requirements.txt
 #   - method: pip
 #     path: .
 
