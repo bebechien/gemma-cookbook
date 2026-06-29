@@ -8,8 +8,9 @@ build:
     nodejs: "22"
   jobs:
     build:
-      html:
-        - "jupyter book build --html docs/myst.yml"
+      commands:
+        - cd docs
+        - jupyter book build --html .
 
 sphinx:
   # Path to your Sphinx configuration file.
