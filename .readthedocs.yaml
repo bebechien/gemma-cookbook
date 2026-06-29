@@ -8,21 +8,9 @@ build:
     nodejs: "22"
 
   commands:
+    - pip install -r docs/requirements.txt
     - cd docs
     - jupyter-book build --html .
     - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r _build/html/* $READTHEDOCS_OUTPUT/html/
 
-sphinx:
-  # Path to your Sphinx configuration file.
-  configuration: docs/conf.py
-
-python:
-   install:
-   - requirements: docs/requirements.txt
-#   - method: pip
-#     path: .
-
-formats:
-  - pdf
-  - epub
