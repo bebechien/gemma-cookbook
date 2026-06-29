@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: d95253d1-f569-47b0-9930-a07d54dd1624
+  title: "Overview"
+  edit_url: null
+  # description:
+  # keywords: []
+  # authors: []
+  github: google-gemma/cookbook
+  toc:
+    - file: index
+    - title: Get started
+      file: get_started
+
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  nav:
+    - title: deepmind.google/models/gemma
+      url: https://deepmind.google/models/gemma
+  parts:
+    primary_sidebar_footer: primary_sidebar_footer.md
+    footer: footer.md
+  options:
+    logo_text: Docs
+    hide_search: true
+    folders: true
+    favicon: images/favicon-new.png
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
