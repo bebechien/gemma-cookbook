@@ -6,9 +6,9 @@ build:
   tools:
     python: "3.13"
   jobs:
-    pre_build:
-      # Generate on-the-fly Sphinx configuration from Jupyter Book's _config.yml
-      - "jupyter-book config sphinx docs/"
+    build:
+      html:
+        - "jupyter book build --html docs/myst.yml"
 
 sphinx:
   # Path to your Sphinx configuration file.
