@@ -103,20 +103,6 @@ variants from
 [Kaggle Models](https://www.kaggle.com/models?query=gemma) and
 [Hugging Face](https://huggingface.co/models?search=google/gemma).
 
-{% comment %}
-@TODO: possible further update (if time)
-### Models by task
-
-**General purpose models**
-
-*   **Gemma (core)** - A general purpose model for text-to-text generative AI
-    tasks available in pretrained and instruction tuned versions, in multiple
-    parameter sizes.
-*   **[RecurrentGemma](/recurrentgemma)** - A general purpose model
-    optimized to more efficiently handle long-context and long output tasks.
-
-{% endcomment %}
-
 ## Test models
 
 You can test Gemma models by setting up a development environment with a
