@@ -15,10 +15,10 @@ Gemma 3n includes the following key features:
 
 -   **Audio input**: Process sound data for speech recognition, translation,
     and audio data analysis.
-    [Learn more](/core/huggingface_inference#audio)
+    [Learn more](/core/huggingface_inference#generate-text-from-audio-data)
 -   **Visual and text input**: Multimodal capabilities let you handle vision,
     sound, and text to help you understand and analyze the world around you.
-    [Learn more](/core/huggingface_inference#vision)
+    [Learn more](/core/huggingface_inference#generate-text-from-image-data)
 -   **Vision encoder:** High-performance MobileNet-V5 encoder substantially
     improves speed and accuracy of processing visual data.
     [Learn more](https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/#mobilenet-v5:-new-state-of-the-art-vision-encoder)
