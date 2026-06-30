@@ -21,7 +21,6 @@ ShieldGemma 1 is built on [Gemma 2](https://ai.google.dev/gemma/docs/core) in 2B
   #### Content safety evaluation
 
   Evaluate the safety of prompt input and output responses against a set of defined safety policies.
-- [](https://huggingface.co/collections/google/shieldgemma-67d130ef8da6af884072a789)
 
   #### [Tuneable, open models](https://huggingface.co/collections/google/shieldgemma-67d130ef8da6af884072a789)
 

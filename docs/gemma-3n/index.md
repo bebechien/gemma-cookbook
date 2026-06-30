@@ -28,7 +28,7 @@ Gemma 3n includes the following key features:
 -   **MatFormer architecture:** Matryoshka Transformer architecture allows
     for selective activation of the models parameters per request to reduce
     compute cost and response times.
-    [Learn more](#matformer)
+    [Learn more](#matformer-architecture)
 -   **Conditional parameter loading:** Bypass loading of vision and audio
     parameters in the model to reduce the total number of loaded parameters and
     save memory resources.

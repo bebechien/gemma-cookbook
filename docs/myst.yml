@@ -9,170 +9,170 @@ project:
   # authors: []
   github: google-gemma/cookbook
   toc:
-    - file: index
+    - file: index.md
     - title: Get started
-      file: get_started
+      file: get_started.md
     - title: Releases
-      file: releases
+      file: releases.md
     - title: Models
       children:
         - title: Core Gemma
           children:
             - title: Overview
-              file: core/index
+              file: core/index.md
             - title: Gemma 4 model card ✨
-              file: core/model_card_4
-            - file: core/model_card_3
-            - file: core/model_card_2
+              file: core/model_card_4.md
+            - file: core/model_card_3.md
+            - file: core/model_card_2.md
             - title: Gemma 1 model card
-              file: core/model_card
+              file: core/model_card.md
         - title: Core Variants
           children:
             - title: Gemma 3n
               children:
                 - title: Overview
-                  file: gemma-3n/index
+                  file: gemma-3n/index.md
                 - title: Model card
-                  file: gemma-3n/model_card
+                  file: gemma-3n/model_card.md
             - title: Diffusiongemma
               children:
                 - title: Overview
-                  file: diffusiongemma/index
+                  file: diffusiongemma/index.md
                 - title: Model card
-                  file: diffusiongemma/model_card
+                  file: diffusiongemma/model_card.md
                 - title: Diffusion Explained
-                  file: diffusiongemma/explained
+                  file: diffusiongemma/explained.md
                 - title: Generate Output
-                  file: diffusiongemma/inference-diffusiongemma-with-hf
+                  file: diffusiongemma/inference-diffusiongemma-with-hf.ipynb
             - title: FunctionGemma
               children:
                 - title: Overview
-                  file: functiongemma/index
+                  file: functiongemma/index.md
                 - title: Model card
-                  file: functiongemma/model_card
+                  file: functiongemma/model_card.md
                 - title: Formatting and best practices
-                  file: functiongemma/formatting-and-best-practices
+                  file: functiongemma/formatting-and-best-practices.md
                 - title: Function calling with Hugging Face Transformers
-                  file: functiongemma/function-calling-with-hf
+                  file: functiongemma/function-calling-with-hf.ipynb
                 - title: Full function calling sequence with FunctionGemma
-                  file: functiongemma/full-function-calling-sequence-with-functiongemma
+                  file: functiongemma/full-function-calling-sequence-with-functiongemma.ipynb
                 - title: Fine-tune FunctionGemma
-                  file: functiongemma/finetuning-with-functiongemma
+                  file: functiongemma/finetuning-with-functiongemma.ipynb
             - title: EmbeddingGemma
               children:
                 - title: Overview
-                  file: embeddinggemma/index
+                  file: embeddinggemma/index.md
                 - title: Model card
-                  file: embeddinggemma/model_card
+                  file: embeddinggemma/model_card.md
                 - title: Generate embeddings with Sentence Transformers
-                  file: embeddinggemma/inference-embeddinggemma-with-sentence-transformers
+                  file: embeddinggemma/inference-embeddinggemma-with-sentence-transformers.ipynb
                 - title: Fine-tune EmbeddingGemma
-                  file: embeddinggemma/fine-tuning-embeddinggemma-with-sentence-transformers
+                  file: embeddinggemma/fine-tuning-embeddinggemma-with-sentence-transformers.ipynb
             - title: PaliGemma
               children:
                 - title: Overview
-                  file: paligemma/index
+                  file: paligemma/index.md
                 - title: v2 model card
-                  file: paligemma/model-card-2
+                  file: paligemma/model-card-2.md
                 - title: v1 model card
-                  file: paligemma/model-card
+                  file: paligemma/model-card.md
                 - title: Generate output with Keras
-                  file: paligemma/inference-with-keras
+                  file: paligemma/inference-with-keras.ipynb
                 - title: Fine-tune with JAX and Flax
-                  file: paligemma/fine-tuning-paligemma
+                  file: paligemma/fine-tuning-paligemma.ipynb
                 - title: Prompt and system instructions
-                  file: paligemma/prompt-system-instructions
+                  file: paligemma/prompt-system-instructions.md
             - title: ShieldGemma
               children:
                 - title: Overview
-                  file: shieldgemma/index
+                  file: shieldgemma/index.md
                 - title: ShieldGemma 2 Model card
-                  file: shieldgemma/model_card_2
+                  file: shieldgemma/model_card_2.md
                 - title: ShieldGemma 1 Model card
-                  file: shieldgemma/model_card
+                  file: shieldgemma/model_card.md
 
     - title: Run Gemma
       children:
         - title: Fundamentals
           children:
             - title: Overview
-              file: run
+              file: run.md
             - title: Prompt Formatting ✨
-              file: core/prompt-formatting-gemma4
+              file: core/prompt-formatting-gemma4.md
             - title: Legacy Gemma setup [Gemma 1, 2, and 3]
-              file: setup
+              file: setup.md
             - title: Legacy Prompt and system instructions [Gemma 1, 2, and 3]
-              file: core/prompt-structure
+              file: core/prompt-structure.md
         - title: Run locally with a Chat UI or integrate via API
           children:
             - title: LM Studio
-              file: integrations/lmstudio
+              file: integrations/lmstudio.md
             - title: Ollama
-              file: integrations/ollama
+              file: integrations/ollama.md
         - title: Run efficiently on Edge
           children:
             - title: LiteRT-LM
               url: https://ai.google.dev/edge/litert-lm
             - title: Llama.cpp
-              file: integrations/llamacpp
+              file: integrations/llamacpp.md
             - title: MLX
-              file: integrations/mlx
+              file: integrations/mlx.md
         - title: Build/Train in Python
           children:
             - title: Gemma library
-              file: core/gemma_library
+              file: core/gemma_library.ipynb
             - title: Hugging Face Transformers
-              file: core/huggingface_inference
+              file: core/huggingface_inference.ipynb
             - title: Keras
-              file: core/keras_inference
+              file: core/keras_inference.ipynb
             - title: Unsloth
               url: https://unsloth.ai/docs/models/gemma-4/train
         - title: Deploy to Production / Enterprise
           children:
             - title: Gemini API
-              file: core/gemma_on_gemini_api
+              file: core/gemma_on_gemini_api.md
             - title: Google Cloud
-              file: integrations/google-cloud
+              file: integrations/google-cloud.md
             - title: Cloud GKE
-              file: core/gke
+              file: core/gke.md
         - title: Multi-Token Prediction (MTP)
           children:
             - title: Overview
-              file: mtp/overview
+              file: mtp/overview.md
             - title: Hugging Face Transformers
-              file: mtp/mtp
+              file: mtp/mtp.ipynb
 
     - title: Core Capabilities
       children:
         - title: Text
           children:
             - title: Basic and multi-turn chat
-              file: capabilities/text/basic
+              file: capabilities/text/basic.ipynb
             - title: Function calling
-              file: capabilities/text/function-calling-gemma4
+              file: capabilities/text/function-calling-gemma4.ipynb
         - title: Visual data
           children:
             - title: Overview
-              file: capabilities/vision/index
+              file: capabilities/vision/index.md
             - title: Image understanding
-              file: capabilities/vision/image
+              file: capabilities/vision/image.ipynb
             - title: Video understanding
-              file: capabilities/vision/video
+              file: capabilities/vision/video.ipynb
         - title: Audio data
-          file: capabilities/audio
+          file: capabilities/audio.ipynb
         - title: Thinking ✨
-          file: capabilities/thinking
+          file: capabilities/thinking.ipynb
 
     - title: Tuning guides
       children:
         - title: Overview
-          file: tune
+          file: tune.md
         - title: Tune using Hugging Face Transformers and QLoRA
-          file: core/huggingface_text_finetune_qlora
+          file: core/huggingface_text_finetune_qlora.ipynb
         - title: Vision Tune using Hugging Face Transformers and QLoRA
-          file: core/huggingface_vision_finetune_qlora
+          file: core/huggingface_vision_finetune_qlora.ipynb
         - title: Full model fine-tune using Hugging Face Transformers
-          file: core/huggingface_text_full_finetune
+          file: core/huggingface_text_full_finetune.ipynb
         - title: Tune using Gemma library
           url: https://gemma-llm.readthedocs.io/en/latest/colab_finetuning.html
 
@@ -181,37 +181,37 @@ project:
         - title: RecurrentGemma
           children:
             - title: Overview
-              file: recurrentgemma/index
+              file: recurrentgemma/index.md
             - title: Inference using JAX and Flax
-              file: recurrentgemma/recurrentgemma_jax_inference
+              file: recurrentgemma/recurrentgemma_jax_inference.ipynb
             - title: Fine-tune using JAX and Flax
-              file: recurrentgemma/recurrentgemma_jax_finetune
+              file: recurrentgemma/recurrentgemma_jax_finetune.ipynb
             - title: Model card
-              file: recurrentgemma/model_card
+              file: recurrentgemma/model_card.md
         - title: DataGemma
-          file: datagemma/index
+          file: datagemma/index.md
         - title: Gemma Scope
-          file: gemma_scope/index
+          file: gemma_scope/index.md
         - title: Gemma-APS
-          file: gemma-aps/index
+          file: gemma-aps/index.md
 
     - title: Community
       children:
         - title: Gemmaverse
           url: https://deepmind.google/models/gemma/gemmaverse/
         - title: Discord
-          file: discord
+          file: discord.md
 
     - title: Legal
       children:
         - title: Terms of use
-          file: terms
+          file: terms.md
         - title: Gemma 4 license
-          file: apache_2
+          file: apache_2.md
         - title: Prohibited use
-          file: prohibited_use_policy
+          file: prohibited_use_policy.md
         - title: Intended use statement
-          file: intended_use_statement
+          file: intended_use_statement.md
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:

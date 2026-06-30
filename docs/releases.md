@@ -113,7 +113,6 @@ This page documents releases for the Gemma family of models.
 
 *   Release of [CodeGemma][2] v1.1.
 
-<a id="recurrentgemma"></a>
 ## April 9, 2024
 
 *   Initial release of [CodeGemma][2].

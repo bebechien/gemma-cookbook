@@ -153,8 +153,7 @@ Consider the following factors when choosing a Gemma variant:
     precision, then quantize the resulting model.
 
 For a list of key, Google-published Gemma models, see the
-[Getting started with Gemma models](/get_started#models-list),
-Gemma model list.
+[Getting started with Gemma models](/get_started), Gemma model list.
 
 ## Run generation and inference requests
 
