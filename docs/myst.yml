@@ -216,6 +216,9 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
+#  actions:
+#    - title: A URL
+#      url: https://mystmd.org
   nav:
     - title: deepmind.google/models/gemma
       url: https://deepmind.google/models/gemma
@@ -223,10 +226,11 @@ site:
     primary_sidebar_footer: primary_sidebar_footer.md
     footer: footer.md
   options:
-    logo_text: Docs
+    logo_text: Gemma
     hide_search: true
     folders: true
     favicon: images/favicon-new.png
+    logo: images/gemma_sq.png
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
