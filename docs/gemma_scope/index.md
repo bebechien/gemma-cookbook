@@ -1,36 +1,22 @@
 # Gemma Scope
 
-## Gemma Scope
+## Analyze Gemma 3 with Gemma Scope 2
 
-### Analyze Gemma 3 with Gemma Scope 2
+Gemma Scope 2 is a comprehensive, open suite of interpretability tools designed for the **Gemma 3** model collection. This tool allows you to examine the behavior of individual layers. It allows researchers to analyze complex language model behaviors and debug emergent behaviors such as jailbreaks or hallucinations.
 
-
-Gemma Scope 2 is a comprehensive, open suite of interpretability tools designed for the
-**Gemma 3** model collection. This tool allows you to examine the behavior of
-individual layers. It allows researchers to analyze complex language model behaviors and
-debug emergent behaviors such as jailbreaks or hallucinations.
-
-
-This toolkit acts as a microscope for the model, providing **Sparse Autoencoders (SAEs)**
-and **Transcoders** trained on every layer of the Gemma 3 family.
-
+This toolkit acts as a microscope for the model, providing **Sparse Autoencoders (SAEs)** and **Transcoders** trained on every layer of the Gemma 3 family.
 
 **Looking for the previous version?**
 
+The original [Gemma Scope (for Gemma 2)](https://deepmind.google/discover/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/) remains available for researchers working with the Gemma 2 family of models.
 
-The original [Gemma Scope (for Gemma 2)](https://deepmind.google/discover/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/)
-remains available for researchers working with the Gemma 2 family of models.
+## Model behavior evaluation
 
--
+Use SAEs and Transcoders to analyze complex internal behaviors and multi-step algorithms in Gemma 3.
 
-  #### Model behavior evaluation
+## Chatbot safety \& debugging
 
-  Use SAEs and Transcoders to analyze complex internal behaviors and multi-step algorithms in Gemma 3.
--
-
-  #### Chatbot safety \& debugging
-
-  Analyze specific chat behaviors, refusal mechanisms, and chain-of-thought faithfulness to build safer AI agents.
+Analyze specific chat behaviors, refusal mechanisms, and chain-of-thought faithfulness to build safer AI agents.
 
 ## Learn more
 

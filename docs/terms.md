@@ -1,5 +1,3 @@
-translation: human
-page_type: lcat
 The terms below apply to Gemma models listed in the Appendix at bottom of this page. For Gemma 4 terms, see the [Gemma 4 license](apache_2).
 
 # Gemma Terms of Use
