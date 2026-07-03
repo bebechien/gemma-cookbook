@@ -13,8 +13,8 @@ application:
 *   Select a model, **tune it for a specific task**, and then deploy it
     in an application, or share it with the community.
 
-This guide helps you get started with [picking](#pick-a-model) a model, [testing](#test-models)
-its capabilities, and optionally, [tuning](#tune-models) the model you selected for
+This guide helps you get started with [picking](get_started#pick-a-model) a model, [testing](get_started#test-models)
+its capabilities, and optionally, [tuning](get_started#tune-models) the model you selected for
 your application.
 
 Tip: As you begin implementing AI applications, make sure you are following

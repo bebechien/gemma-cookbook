@@ -24,15 +24,15 @@ Gemma 3n includes the following key features:
     [Learn more](https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/#mobilenet-v5:-new-state-of-the-art-vision-encoder)
 -   **PLE caching**: Per-Layer Embedding (PLE) parameters contained in these
     models can be cached to fast, local storage to reduce model memory run
-    costs. [Learn more](#ple-caching)
+    costs. [Learn more](gemma-3n#ple-caching)
 -   **MatFormer architecture:** Matryoshka Transformer architecture allows
     for selective activation of the models parameters per request to reduce
     compute cost and response times.
-    [Learn more](#matformer-architecture)
+    [Learn more](gemma-3n#matformer-architecture)
 -   **Conditional parameter loading:** Bypass loading of vision and audio
     parameters in the model to reduce the total number of loaded parameters and
     save memory resources.
-    [Learn more](#conditional-parameter-loading)
+    [Learn more](gemma-3n#conditional-parameter-loading)
 -   **Wide language support**: Wide linguistic capabilities, trained in over
     140 languages.
 -   **32K token context**: Substantial input context for analyzing data and

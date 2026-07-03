@@ -75,8 +75,9 @@ Gemma 4 utilizes an internal "thinking process" that optimizes its multi-step
 reasoning, delivering superior performance in logically demanding domains such
 as algorithmic coding and advanced mathematical proofs.
 
-While Gemma 4 strictly supports toggling this feature on or off, you enable it
-in the API by setting the thinking level to `"high"`.
+While Gemma 4 strictly supports toggling this feature on or off, you can control
+it using the API by setting the thinking level to `"high"` for enabled or
+`"minimal"` for disabled.
 
 The following example demonstrates how to activate the thinking process:
 

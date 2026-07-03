@@ -30,7 +30,7 @@ You can download Gemma 4 models from
 For more technical details on Gemma 4, see the
 [Model Card](/core/model_card_4).
 Earlier versions of Gemma core models are also available for download. For more
-information, see [Previous Gemma models](#previous-gemma-models).
+information, see [Previous Gemma models](core#previous-gemma-models).
 
 <a class="button" href="https://www.kaggle.com/models?query=gemma-4&publisher=google">Get it on Kaggle</a>
 <a class="button" href="https://huggingface.co/collections/google/gemma-4">Get it on Hugging Face</a>

@@ -8,9 +8,9 @@ with what hardware you and your users have available to run the model.
 This overview helps you navigate these decisions and start working with Gemma
 models. The general steps for running a Gemma model are as follows:
 
--   [Choose a framework for running](#choose-a-framework)
--   [Select a Gemma variant](#select-a-gemma-variant)
--   [Run generation and inference requests](#run-generation-and-inference-requests)
+-   [Choose a framework for running](run#choose-a-framework)
+-   [Select a Gemma variant](run#select-a-gemma-variant)
+-   [Run generation and inference requests](run#run-generation-and-inference-requests)
 
 ## Choose a framework
 
@@ -23,9 +23,9 @@ Use the following table to quickly identify the best tool for your needs:
 | If you want to... | Recommended Framework | Best For |
 | --- | --- | --- |
 | **Run locally with a Chat UI** | - **[LM Studio][lm-studio]** <br> - **[Ollama][ollama]** | Beginners, or users who want a "Gemini-like" experience on their laptop. |
-| **Run efficiently on Edge** | - **[LiteRT-LM][litert-lm]** <br> - **[llama.cpp][llama-cpp]** <br> - **[MediaPipe LLM Inference API][mediapipe]** <br> - **[MLX][mlx]** | High-performance local inference with minimal resources. |
-| **Build/Train in Python** | - **[Gemma library for JAX][jax]** <br> - **[Hugging Face Transformers][hf-transformers]** <br> - **[Keras][keras]** <br> - **[Unsloth][unsloth]** | Researchers and Developers building custom applications or fine-tuning models. |
-| **Deploy to Production / Enterprise** | - **[Google Cloud Kubernetes Engine (GKE)][gke]** <br> - **[Google Cloud Run][cloud-run]** <br> - **[Vertex AI][vertex-ai]** <br> - **[vLLM][vllm]** | Scalable, managed cloud deployment with enterprise security and MLOps support. |
+| **Run efficiently on Edge** | - **[LiteRT-LM][litert-lm]** <br> - **[llama.cpp][llama-cpp]** <br> - **[MLX][mlx]** | High-performance local inference with minimal resources. |
+| **Build/Train in Python** | - **[Tunix (Tune-in-JAX)][tunix]** <br> - **[Hugging Face Transformers][hf-transformers]** <br> - **[Keras][keras]** <br> - **[Unsloth][unsloth]** | Researchers and Developers building custom applications or fine-tuning models. |
+| **Deploy to Production / Enterprise** | - **[Google Cloud Kubernetes Engine (GKE)][gke]** <br> - **[Gemini Enterprise Agent Platform][gemini-enterprise-agent-platform]** <br> - **[vLLM][vllm]** <br> - **[SGLang][sglang]** | Scalable, managed cloud deployment with enterprise security and MLOps support. |
 
 ### Framework Details
 
@@ -46,7 +46,6 @@ utilizing optimized formats (like GGUF) or specific hardware accelerators.
     (Windows, Linux, macOS), powered by LiteRT (formerly TFLite).
 *   **[MLX][mlx]**: A framework designed specifically for machine learning on
     Apple Silicon, perfect for Mac users who want built-in performance.
-
 *   **[Ollama][ollama]**: A tool to run open LLMs locally, often used to power
     other applications.
 
@@ -60,7 +59,7 @@ training models.
 *   **[Unsloth][unsloth]**: An optimized library for fine-tuning LLMs. It lets
     you train Gemma models 2-5x faster with significantly less memory, making
     it possible to fine-tune on consumer GPUs (e.g., free Google Colab tiers).
-*   **[Keras][keras]** / **[JAX][jax]**: Core libraries
+*   **[Keras][keras]** / **[Tunix (Tune-in-JAX)][tunix]**: Core libraries
     for deep learning research and custom architecture implementation.
 
 #### 3. Mobile & Edge Deployment (On-Device)
@@ -71,21 +70,21 @@ without internet connectivity, often utilizing NPUs (Neural Processing Units).
 *   **[LiteRT-LM][litert-lm]**: The fully open-source framework for on-device
     LLM development that offers maximum performance and fine-grained control,
     with direct support for CPU, GPU, and NPU acceleration on Android and iOS.
-*   **[MediaPipe LLM Inference API][mediapipe]**: The easiest way to integrate
-    Gemma into cross-platform apps. It offers a high-level API that works across
-    Android, iOS, and Web.
 
 #### 4. Cloud & Production Deployment
 
 Managed services for scaling your application to thousands of users or accessing
 massive compute power.
 
-*   **[Vertex AI][vertex-ai]**: Google Cloud's fully managed AI platform. Best
-    for enterprise applications requiring SLAs and scaling.
+*   **[Gemini Enterprise Agent Platform][gemini-enterprise-agent-platform]**:
+    Google Cloud's fully managed AI platform. Best for enterprise applications
+    requiring SLAs and scaling.
 *   **[Google Cloud Kubernetes Engine (GKE)][gke]**: For orchestrating your own
     serving clusters.
 *   **[vLLM][vllm]**: A high-throughput and memory-efficient inference and
     serving engine, often used in cloud deployments.
+*   **[SGLang][sglang]**: High-performance serving framework for large language
+    and multimodal models.
 
 Make sure your intended deployment Gemma model format, such as Keras built-in
 format, Safetensors, or GGUF, is supported by your chosen framework.
@@ -160,7 +159,7 @@ For a list of key, Google-published Gemma models, see the
 After you have selected an AI execution framework and a Gemma variant, you can
 start running the model, and prompting it to generate content or complete tasks.
 For more information on how to run Gemma with a specific framework, see the
-guides linked in the [Choose a framework](#choose-a-framework) section.
+guides linked in the [Choose a framework](run#choose-a-framework) section.
 
 ### Prompt formatting
 
@@ -176,19 +175,17 @@ instructions:
 -   [PaliGemma prompt and system instructions](/paligemma/prompt-system-instructions)
 -   [FunctionGemma formatting and best practices](/functiongemma/formatting-and-best-practices)
 
-[cloud-run]: /core/deploy_to_cloud_run_from_ai_studio
-
 [gke]: /core/gke
 [hf-transformers]: https://huggingface.co/docs/transformers/en/model_doc/gemma4
-[jax]: https://gemma-llm.readthedocs.io
+[tunix]: https://tunix.readthedocs.io/en/latest/
 [keras]: /core/keras_inference
-[litert-lm]: https://ai.google.dev/edge/litert-lm/overview
+[litert-lm]: https://ai.google.dev/edge/litert-lm/models/gemma-4
 [litert-lm-cli]: https://ai.google.dev/edge/litert-lm/cli
 [llama-cpp]: /integrations/llamacpp
 [lm-studio]: /integrations/lmstudio
-[mediapipe]: https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference/
 [mlx]: /integrations/mlx
 [ollama]: /integrations/ollama
 [unsloth]: https://unsloth.ai/docs/models/gemma-4
-[vertex-ai]: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/open-models/use-gemma
-[vllm]: https://docs.cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-vllm
+[gemini-enterprise-agent-platform]: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/open-models/use-gemma
+[vllm]: https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html
+[sglang]: https://lmsysorg.mintlify.app/cookbook/autoregressive/Google/Gemma4

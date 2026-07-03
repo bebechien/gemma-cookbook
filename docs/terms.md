@@ -25,7 +25,7 @@ providing or making Gemma or its functionality available as a hosted service via
 API, web access, or any other electronic or remote means ("**Hosted Service**").
 
 (c) "**Gemma**" means the set of machine learning language models, trained model
-weights and parameters identified in the [Appendix](#appendix),
+weights and parameters identified in the [Appendix](terms#appendix),
 regardless of the source that you obtained it from.
 
 (d) "**Google**" means Google LLC.

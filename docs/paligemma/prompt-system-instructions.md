@@ -9,7 +9,7 @@ tasks.
 
 PaliGemma models use the same prompt formatting as the Gemma foundation models
 they are based on. However, PaliGemma models also support a special
-[task syntax](#prompt-task-syntax), which is described in the next section. For
+[task syntax](paligemma/prompt-system-instructions#prompt-task-syntax), which is described in the next section. For
 more information on Gemma prompt formatting, see
 [Gemma prompt and system instructions](/core/prompt-structure).
 

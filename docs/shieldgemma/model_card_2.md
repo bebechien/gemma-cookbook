@@ -25,7 +25,7 @@ the safety of both synthetic and natural images against key categories to help
 you build robust datasets and models. With this addition to the Gemma family of
 models, researchers and developers can now minimize the risk of harmful content
 affecting their Generative-AI powered applications across key
-[harm types](#guidelines-to-use-in-prompts).
+[harm types](shieldgemma/model_card_2#guidelines-to-use-in-prompts).
 
 We recommend using ShieldGemma 2 as an input filter to vision language models,
 or as an output filter of image generation systems. To train a robust image
