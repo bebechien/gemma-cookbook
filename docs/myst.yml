@@ -173,8 +173,6 @@ project:
           file: core/huggingface_vision_finetune_qlora.ipynb
         - title: Full model fine-tune using Hugging Face Transformers
           file: core/huggingface_text_full_finetune.ipynb
-        - title: Tune using Gemma library
-          url: https://gemma-llm.readthedocs.io/en/latest/colab_finetuning.html
 
     - title: Research and tools
       children:
