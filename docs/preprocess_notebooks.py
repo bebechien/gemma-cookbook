@@ -34,7 +34,6 @@ def preprocess_notebook(file_path):
 # Crawl through your docs directory to find all notebooks
 docs_dir = Path('docs').resolve()
 for root, dirs, files in docs_dir.walk():
-    print(files)
     if "_build" in root.parts:
         continue
 
